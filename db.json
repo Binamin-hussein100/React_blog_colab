@@ -157,6 +157,12 @@
         "issuer": "Java Institute",
         "date": "2018-07-22",
         "description": "Certified Java Developer certificate awarded for proficiency in Java programming."
+      },{
+        "id": 6,
+        "title": "Web Development Fundamentals",
+        "issuer": "Code Academy",
+        "date": "2022-03-15",
+        "description": "Certificate for completing the Web Development Fundamentals course."
       }
     ],
     "contacts": [
