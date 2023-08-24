@@ -10,7 +10,7 @@ const Inbox = () => {
   // Fetches contacts data when the component mounts
   useEffect(() => {
     // Fetches contacts data from your JSON file using the fetch API
-    fetch("http://localhost:8000/contacts") 
+    fetch("http://localhost:8080/contacts") 
       .then(response => response.json()) // Parses the response JSON
       .then(data => {
         setContacts(data) // Updates the state with fetched contacts data
