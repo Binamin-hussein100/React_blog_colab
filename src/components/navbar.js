@@ -18,7 +18,9 @@ const Navbar = () =>{
                 <Link to='/certificates'>
                     <h4>Certificate</h4>
                 </Link>
-                <h4>Inbox</h4>
+                <Link to='/inbox'>
+                    <h4>Inbox</h4>
+                </Link>
             </div>
         </div>
     )
