@@ -8,9 +8,11 @@ function App() {
   return (
     <div >
       <Navbar/>
-      <HomePage />
-      <Inbox />
-
+      <Routes>
+         <Route path='/' element={<HomePage />}/> 
+         <Route path='/certificates' element={<Certificates/>}/>
+      </Routes>
+      
     </div>
   );
 }
