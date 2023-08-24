@@ -45,3 +45,43 @@
   font-size: 12px;
   text-align: justify;
 }
+#cert-container{
+  padding: 15px 40px 40px 40px;
+}
+.top{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 60px;
+  padding: 15px;
+  
+}
+#cert-cont{
+  border: 8px solid rgba(211, 211, 211, 0.536);
+  display: flex;
+  width: 25%;
+  height: 150px;
+  margin: 15px 15px 15px 35px;
+  padding: 20px;
+  border-radius: 7px;
+}
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 10%; */
+  /* padding: 20px; */
+}
+.issuer{
+ display: flex;
+ width:40%;
+ flex-direction: column;
+ justify-content: flex-end;
+}
+.cert-details{
+  display: flex;
+  width:55%;
+  flex-direction: column;
+  margin: 3px;
+  justify-content: center;
+}
