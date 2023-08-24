@@ -11,7 +11,7 @@ const[blogdata,setBlogdata]= useState({
     
 })
 useEffect(()=>{
-    fetch("http://localhost:8000/blogs/1")
+    fetch("http://localhost:8080/blogs/1")
     .then(res => res.json())
     .then(data => setBlogdata(data))
 

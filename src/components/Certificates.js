@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 function Certificates(){
     const [certificates, setCertificates] = useState([]);
     useEffect(()=>{
-        fetch("http://localhost:8000/certificates")
+        fetch("http://localhost:8080/certificates")
         .then(res=> res.json())
         .then(data=> setCertificates(data))
     },[])
