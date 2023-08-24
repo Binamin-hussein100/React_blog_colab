@@ -12,3 +12,36 @@
   width: 40%;
 
 }
+
+
+.title{
+  text-align: center;
+  color:#5A99F7;
+  font-size: 24px;
+  display: block;
+}
+.span{
+  color: #646464;
+}
+
+.blog{
+  border: 1px solid #0a0909;
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto;
+  background-color: #F0F0F0;
+  text-align: center;
+  width: 600px;
+  height: 250px;
+  
+}
+.tag{
+  list-style: none;
+  display: flex;
+}
+.tags li {
+   padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: justify;
+}
